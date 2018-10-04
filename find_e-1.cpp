@@ -2,11 +2,14 @@
 #include "stdafx.h"
 #include <cmath>
 
+double e = 1;
+double tol;
+
 void find_e() {
 	
 	//variables. Difference for evaluating tolerance, denominator for Euler formula, e and xn1 for
 	//calculating difference
-	e = 1;
+	// e = 1;
 	double difference;
 	double en1 = 1;
 	double denominator = 1;

@@ -7,7 +7,9 @@
 
 using namespace std;
 
-//extern double e;
+//forward declaration so it can now be used beyond this point in the file
+extern double e;
+extern double tol;
 
 int main()
 {
@@ -21,7 +23,7 @@ int main()
 	//call statement. Changes e through global variable
 	find_e();
 
-	//Output
+	//output
 	cout << "\nYour value for e is " << e << endl;
 
     return 0;
